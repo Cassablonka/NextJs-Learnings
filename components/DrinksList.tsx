@@ -4,7 +4,7 @@ const DrinksList = ({drinks}: any) => {
   return (
     <>
       <ul>
-        {drinks.map((drink:any) => {
+        {drinks?.map((drink:any) => {
             return <li key={drink.idDrink}>
                 <Link href={`/drinks/${drink.idDrink}`}>{drink.strDrink}</Link>
             </li>

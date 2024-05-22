@@ -1,5 +1,7 @@
-export default function Prisma() {
+export default async function Prisma() {
   return (
-    <main className="text-4xl">Prisma Page</main>
+    <main className="text-4xl">
+      Prisma Page
+    </main>
   );
 }
